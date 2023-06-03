@@ -273,7 +273,7 @@ echo -e " ${BICyan}│  ${BICyan}Use Core        :  ${BIPurple}SimpleScript${NC}
 echo -e " ${BICyan}│  ${BICyan}IP-VPS          :  ${BIYellow}$IPVPS${NC}"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 
-echo -e "${GREEN}Status Hari Ini Masih Mencari Cuan${NC}" 
+echo -e "${BIWhite}Barang siapa yang bersungguh-sungguh berjalan pada jalannya maka pasti ia akan sampai pada tujuannya.${NC}" 
 
 echo -e "${GREEN}┌──────────────────────────────────────────────────┐${NC}" 
 echo -e "${GREEN}│  \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJAN $NC" 
