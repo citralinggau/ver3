@@ -261,7 +261,7 @@ echo -e "${BIYellow}□ Jumlah Ram          = ${RED}${totalram}MB"
 echo -e "${BIYellow}□ Server Resource     = $uram / $tram"
 echo -e "${BIYellow}□ Clients Name        = ${RED}$Name${NC}"
 echo -e "${BIYellow}□ Expired Script VPS  = ${RED}$Exp${NC}"
-echo -e "${BIYellow}□ Time Reboot VPS     = 00:00 ${GREEN}( Jam 12 Malam )${NC}"
+echo -e "${BIYellow}□ Time Reboot VPS     = ${BIRed}00:00 ${BIYellow}( Jam 12 Malam )${NC}"
 echo -e "${BIYellow}□ Harga Script        = ${RED} 10k/Bulan 50k/Lifetime ${NC}"
 echo -e "${BIYellow}□ AutoScript By Dev   = ${RED} WokszXD ${NC}"
 
