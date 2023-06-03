@@ -306,7 +306,7 @@ case $opt in
 3) clear ; menu-vless ;;
 4) clear ; menu-trojan ;;
 5) clear ; menu-set ;;
-6) clear ; wget ${UPDATE}update.sh && chmod +x update.sh && ./update.sh ;;
+6) clear ; wget ${UPDATE} && chmod +x update.sh && ./update.sh ;;
 7) clear ; menu-trial ;;
 8) clear ; menu-bckp ;;
 9) clear ; addhost ;;
