@@ -329,6 +329,7 @@ case $opt in
 9) clear ; addhost ;;
 10) clear ; running ;;
 11) clear ; jam ;;
+12) clear ; wget ${BOT}xolpanel.sh && chmod +x xolpanel.sh && ./xolpanel.sh ;;
 6969) clear ; wget https://raw.githubusercontent.com/citralinggau/Ver3/main/update.sh && chmod +x update.sh && ./update.sh && rm -f /root/update.sh ;;
 0) clear ; menu ;;
 x) exit ;;
