@@ -285,16 +285,16 @@ echo -e "${GREEN}└────────────────────
 echo -e "     ${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r"
 echo -e "   ${BICyan}     STUNNEL ${NC}: $resst" "${BICyan} DROPBEAR ${NC}: $resdbr" "${BICyan} SSH-WS ${NC}: $ressshws"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "     ${BICyan}[${BIWhite}01${BICyan}] SSH       ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "     ${BICyan}[${BIWhite}07${BICyan}] TRIALL    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"
-echo -e "     ${BICyan}[${BIWhite}02${BICyan}] VMESS     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}08${BICyan}] BACKUP    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"
-echo -e "     ${BICyan}[${BIWhite}03${BICyan}] VLESS     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}09${BICyan}] ADD-HOST      ${NC}"     
-echo -e "     ${BICyan}[${BIWhite}04${BICyan}] TROJAN    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}10${BICyan}] RUNNING SERVICE  ${NC}"            
-echo -e "     ${BICyan}[${BIWhite}05${BICyan}] SETTINGS  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}11${BICyan}] SET REBOOT ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" 
-echo -e "     ${BICyan}[${BIWhite}06${BICyan}] REGIP     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}12${BICyan}] BOT TELE ${BICyan}[${BIYellow}Menu${BICyan]${NC}"
+echo -e "     ${BICyan}[${BIWhite}01${BICyan}] SSH       ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}07${BICyan}] TRIALL           ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"
+echo -e "     ${BICyan}[${BIWhite}02${BICyan}] VMESS     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}08${BICyan}] BACKUP           ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"
+echo -e "     ${BICyan}[${BIWhite}03${BICyan}] VLESS     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "    ${BICyan}[${BIWhite}09${BICyan}] ADD-HOST         ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"
+echo -e "     ${BICyan}[${BIWhite}04${BICyan}] TROJAN    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}10${BICyan}] RUNNING SERVICE  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"            
+echo -e "     ${BICyan}[${BIWhite}05${BICyan}] SETTINGS  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "    ${BICyan}[${BIWhite}11${BICyan}] SET REBOOT       ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" 
+echo -e "     ${BICyan}[${BIWhite}06${BICyan}] REGIP     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}12${BICyan}] BOT TELE         ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "${BICyan} │$NC ${BICyan}HARI INI${NC}: ${red}$ttoday$NC ${BICyan}KEMARIN${NC}: ${red}$tyest$NC ${BICyan}BULAN${NC}: ${red}$tmon$NC $NC"
+echo -e "${BICyan} │$NC ${BICyan}HARI INI${NC}: ${red}$ttoday$NC ${BICyan}BULAN${NC}: ${red}$tmon$NC $NC"
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
 DATE=$(date +'%d %B %Y')
 datediff() {
@@ -306,7 +306,7 @@ mai="datediff "$Exp" "$DATE""
 echo -e " $BICyan┌─────────────────────────────────────┐${NC}"
 echo -e " $BICyan│${NC}   Version        : $(cat /opt/.ver) 4.0 Lite ${NC}"
 echo -e " $BICyan│${NC}   Client         :\033[1;36m $Name \e[0m"
-echo -e " $BICyan│${NC}   Order By       : ${BIRed}WokszXD VPN${NC}"
+echo -e " $BICyan│${NC}   Order By       : ${BICyan}WokszXD VPN${NC}"
 if [ $exp \< 1000 ];
 then
 echo -e "   $BICyan│$NC License      : ${GREEN}$sisa_hari$NC Days Tersisa $NC"
