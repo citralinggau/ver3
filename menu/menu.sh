@@ -264,7 +264,7 @@ echo -e "${BIYellow}□ Expired Script VPS  = ${BIRed}$Exp${NC}"
 echo -e "${BIYellow}□ Time Reboot VPS     = ${BIRed}00:00 ${BIYellow}( Jam 12 Malam )${NC}"
 echo -e "${BIYellow}□ Harga Script        = ${BIRed} 10k/Bulan 50k/Lifetime ${NC}"
 echo -e "${BIYellow}□ AutoScript By Dev   = ${BIRed} WokszXD ${NC}"
-echo -e "${BIYellow}□ Kata Kata           = Jgn pernah menyesal akan semua yang kita awali tapi jalani saja apa yang terjadi
+echo -e "${BIYellow}□ Kata Kata           = Jgn pernah menyesal akan semua yang kita awali tapi jalani saja apa yang terjadi ${NC}"
 
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │                  ${BIWhite}${UWhite}WokszXD TUNELING${NC}"
