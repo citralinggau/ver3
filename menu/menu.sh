@@ -285,11 +285,12 @@ echo -e "${GREEN}└────────────────────
 echo -e "     ${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r"
 echo -e "   ${BICyan}     STUNNEL ${NC}: $resst" "${BICyan} DROPBEAR ${NC}: $resdbr" "${BICyan} SSH-WS ${NC}: $ressshws"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "     ${BICyan}[${BIWhite}01${BICyan}] SSH       ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "     ${BICyan}[${BIWhite}07${BICyan}] TRIALL    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
-echo -e "     ${BICyan}[${BIWhite}02${BICyan}] VMESS     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}08${BICyan}] BACKUP    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
-echo -e "     ${BICyan}[${BIWhite}03${BICyan}] VLESS     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}09${BICyan}] ADD-HOST      ${NC}" "${BICyan}     │"
-echo -e "     ${BICyan}[${BIWhite}04${BICyan}] TROJAN    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}10${BICyan}] RUNNING SERVICE              │"
-echo -e "     ${BICyan}[${BIWhite}05${BICyan}] SETTINGS  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}11${BICyan}] SET REBOOT${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │${NC}"
+echo -e "     ${BICyan}[${BIWhite}01${BICyan}] SSH       ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "     ${BICyan}[${BIWhite}07${BICyan}] TRIALL    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"
+echo -e "     ${BICyan}[${BIWhite}02${BICyan}] VMESS     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}08${BICyan}] BACKUP    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"
+echo -e "     ${BICyan}[${BIWhite}03${BICyan}] VLESS     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}09${BICyan}] ADD-HOST      ${NC}" "${BICyan}     "
+echo -e "     ${BICyan}[${BIWhite}04${BICyan}] TROJAN    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}10${BICyan}] RUNNING SERVICE              "
+echo -e "     ${BICyan}[${BIWhite}05${BICyan}] SETTINGS  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}11${BICyan}] SET REBOOT ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" 
+echo -e "     ${BICyan}[${BIWhite}06${BICyan}] REGIP     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}12${BICyan}] BOT TELE ${BICyan}[${BIYellow}Menu${BICyan]${NC}"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
@@ -322,11 +323,12 @@ case $opt in
 3) clear ; menu-vless ;;
 4) clear ; menu-trojan ;;
 5) clear ; menu-set ;;
-6) clear ; menu-trial ;;
-7) clear ; menu-bckp ;;
-8) clear ; addhost ;;
-9) clear ; running ;;
-10) clear ; jam ;;
+6) clear ; addip ;;
+7) clear ; menu-trial ;;
+8) clear ; menu-bckp ;;
+9) clear ; addhost ;;
+10) clear ; running ;;
+11) clear ; jam ;;
 6969) clear ; wget https://raw.githubusercontent.com/citralinggau/Ver3/main/update.sh && chmod +x update.sh && ./update.sh && rm -f /root/update.sh ;;
 0) clear ; menu ;;
 x) exit ;;
