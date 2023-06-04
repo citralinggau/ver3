@@ -253,18 +253,18 @@ echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━�
 echo -e "\E[44;1;39m                     ⇱ INFORMASI VPS ⇲                        \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 
-echo -e "${BICyan}□ Server Uptime       = ${BIRed}$( uptime -p  | cut -d " " -f 2-10000 ) ${NC}"
-echo -e "${BICyan}□ Current Time        = ${BIRed}$( date -d "0 days" +"%d-%m-%Y | %X" )${NC}"
-echo -e "${BICyan}□ Operating System    = ${BIRed}$( cat /etc/os-release | grep -w PRETTY_NAME | sed 's/PRETTY_NAME//g' | sed 's/=//g' | sed 's/"//g' ) ( $( uname -m) )${NC}"
-echo -e "${BICyan}□ Current Domain      = ${BIRed}$( cat /etc/xray/domain )${NC}"
-echo -e "${BICyan}□ Jumlah Ram          = ${BIRed}${totalram}MB"
-echo -e "${BICyan}□ Server Resource     = $uram / $tram"
-echo -e "${BICyan}□ Clients Name        = ${BIRed}$Name${NC}"
-echo -e "${BICyan}□ Expired Script VPS  = ${BIRed}$Exp${NC}"
-echo -e "${BICyan}□ Time Reboot VPS     = ${BIRed}00:00 ${BIGreen}( Jam 12 Malam )${NC}"
-echo -e "${BICyan}□ Harga Script        = ${BIRed}10k/Bulan 50k/Lifetime ${NC}"
-echo -e "${BICyan}□ AutoScript By Dev   = ${BIRed}WokszXD ${NC}"
-echo -e "${BICyan}□ Kata Kata           = ${BIRed}SEMUA BUTUH PROSES!! ${NC}"
+echo -e "${GREEN}□ Server Uptime       = ${BICyan}$( uptime -p  | cut -d " " -f 2-10000 ) ${NC}"
+echo -e "${GREEN}□ Current Time        = ${BICyan}$( date -d "0 days" +"%d-%m-%Y | %X" )${NC}"
+echo -e "${GREEN}□ Operating System    = ${BICyan}$( cat /etc/os-release | grep -w PRETTY_NAME | sed 's/PRETTY_NAME//g' | sed 's/=//g' | sed 's/"//g' ) ( $( uname -m) )${NC}"
+echo -e "${GREEN}□ Current Domain      = ${BICyan}$( cat /etc/xray/domain )${NC}"
+echo -e "${GREEN}□ Jumlah Ram          = ${BICyan}${totalram}MB"
+echo -e "${GREEN}□ Server Resource     = $uram / $tram"
+echo -e "${GREEN}□ Clients Name        = ${BICyan}$Name${NC}"
+echo -e "${GREEN}□ Expired Script VPS  = ${BICyan}$Exp${NC}"
+echo -e "${GREEN}□ Time Reboot VPS     = ${BICyan}00:00 ${BIGreen}( Jam 12 Malam )${NC}"
+echo -e "${GREEN}□ Harga Script        = ${BICyan}10k/Bulan 50k/Lifetime ${NC}"
+echo -e "${GREEN}□ AutoScript By Dev   = ${BICyan}WokszXD ${NC}"
+echo -e "${GREEN}□ Kata Kata           = ${BICyan}SEMUA BUTUH PROSES!! ${NC}"
 
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │                  ${BIWhite}${UWhite}WokszXD TUNELING${NC}"
@@ -285,22 +285,34 @@ echo -e "${GREEN}└────────────────────
 echo -e "     ${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r"
 echo -e "   ${BICyan}     STUNNEL ${NC}: $resst" "${BICyan} DROPBEAR ${NC}: $resdbr" "${BICyan} SSH-WS ${NC}: $ressshws"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "     ${BICyan}[${BIWhite}01${BIYellow}] SSH       ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "     ${BICyan}[${BIWhite}07${BIYellow}] TRIALL    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
-echo -e "     ${BICyan}[${BIWhite}02${BIYellow}] VMESS     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}08${BIYellow}] BACKUP    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
-echo -e "     ${BICyan}[${BIWhite}03${BIYellow}] VLESS     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}09${BIYellow}] ADD-HOST      ${NC}" "${BICyan}     │"
-echo -e "     ${BICyan}[${BIWhite}04${BIYellow}] TROJAN    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}10${BIYellow}] RUNNING SERVICE              │"
-echo -e "     ${BICyan}[${BIWhite}05${BIYellow}] SETTINGS  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}11${BIYellow}] SET REBOOT${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │${NC}"
+echo -e "     ${BICyan}[${BIWhite}01${BICyan}] SSH       ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "     ${BICyan}[${BIWhite}07${BICyan}] TRIALL    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
+echo -e "     ${BICyan}[${BIWhite}02${BICyan}] VMESS     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}08${BICyan}] BACKUP    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
+echo -e "     ${BICyan}[${BIWhite}03${BICyan}] VLESS     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}09${BICyan}] ADD-HOST      ${NC}" "${BICyan}     │"
+echo -e "     ${BICyan}[${BIWhite}04${BICyan}] TROJAN    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}10${BICyan}] RUNNING SERVICE              │"
+echo -e "     ${BICyan}[${BIWhite}05${BICyan}] SETTINGS  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}11${BICyan}] SET REBOOT${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │${NC}"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 
-echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "${BICyan} │$NC ${BICyan}HARI ini${NC}: ${red}$ttoday$NC ${BICyan}KEMARIN${NC}: ${red}$tyest$NC ${BICyan}BULAN${NC}: ${red}$tmon$NC $NC"
+echo -e "${BICyan} │$NC ${BICyan}HARI INI${NC}: ${red}$ttoday$NC ${BICyan}KEMARIN${NC}: ${red}$tyest$NC ${BICyan}BULAN${NC}: ${red}$tmon$NC $NC"
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
-echo -e " ${BICyan}┌─────────────────────────────────────┐${NC}"
-echo -e " ${BICyan}│  Version      ${NC} : v3. Last Update"
-echo -e " ${BICyan}│  User       ${NC}   :\033[1;36m $Name \e[0m"
-echo -e " ${BICyan}│  Expiry script${NC} : ${BIYellow}$Exp${NC} Days"
-echo -e " ${BICyan}└─────────────────────────────────────┘${NC}"
+DATE=$(date +'%d %B %Y')
+datediff() {
+    d1=$(date -d "$1" +%s)
+    d2=$(date -d "$2" +%s)
+    echo -e " $BICyan│${NC}   Expiry In      : $(( (d1 - d2) / 86400 )) Days $NC"
+}
+mai="datediff "$Exp" "$DATE""
+echo -e " $BICyan┌─────────────────────────────────────┐${NC}"
+echo -e " $BICyan│${NC}   Version        : $(cat /opt/.ver) 4.0 Lite ${NC}"
+echo -e " $BICyan│${NC}   Client         :\033[1;36m $Name \e[0m"
+echo -e " $BICyan│${NC}   Order By       : ${BIRed}WokszXD VPN${NC}"
+if [ $exp \< 1000 ];
+then
+echo -e "   $BICyan│$NC License      : ${GREEN}$sisa_hari$NC Days Tersisa $NC"
+else
+    datediff "$Exp" "$DATE"
+fi;
+echo -e " $BICyan└─────────────────────────────────────┘${NC}"
 echo
 read -p " Select menu : " opt
 echo -e ""
