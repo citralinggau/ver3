@@ -261,7 +261,7 @@ echo -e "${BIGreen}□ Jumlah Ram          = ${BICyan}${totalram}MB"
 echo -e "${BIGreen}□ Server Resource     = ${BICyan}$uram / $tram"
 echo -e "${BIGreen}□ Clients Name        = ${BICyan}$Name${NC}"
 echo -e "${BIGreen}□ Expired Script VPS  = ${BICyan}$Exp${NC}"
-echo -e "${BIGreen}□ Time Reboot VPS     = ${BICyan}00:00 ${BICyan}( Jam 12 Malam )${NC}"
+echo -e "${BIGreen}□ Time Reboot VPS     = ${BICyan}00:00 ${BIGreen}( Jam 12 Malam )${NC}"
 echo -e "${BIGreen}□ Harga Script        = ${BICyan}10k/Bulan 50k/Lifetime ${NC}"
 echo -e "${BIGreen}□ AutoScript By Dev   = ${BICyan}WokszXD ${NC}"
 echo -e "${BIGreen}□ Kata Kata           = ${BICyan}SEMUA BUTUH PROSES!! ${NC}"
@@ -271,11 +271,12 @@ echo -e "${BICyan} │                  ${BIWhite}${UWhite}WokszXD TUNELING${NC}
 echo -e "${BICyan} │"
 echo -e " ${BICyan}│  ${BICyan}Use Core        :  ${BIPurple}SimpleScript${NC}"
 echo -e " ${BICyan}│  ${BICyan}IP-VPS          :  ${BIYellow}$IPVPS${NC}"
-echo -e " ${BICyan}|  ${BICyan}ISP-VPS         :  ${BIYellow}$ISP${NC}"  
+echo -e " ${BICyan}│  ${BICyan}ISP-VPS         :  ${BIYellow}$ISP${NC}"  
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 
-echo -e "${BIWhite}Barang siapa yang bersungguh-sungguh${NC}"
-echo -e "${BIWhite}berjalan pada jalannya maka pasti ia akan sampai pada tujuannya.${NC}" 
+echo -e "${BIWhite}Jangan pernah menyesal akan semua yang kita awali${NC}"
+echo -e "${BIWhite}Tapi jalani saja apa yang terjadi.${NC}" 
+echo -e "${BIWhite}##WokszXD${NC}"
 
 echo -e "${GREEN}┌──────────────────────────────────────────────────┐${NC}" 
 echo -e "${GREEN}│  \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJAN $NC" 
@@ -285,12 +286,11 @@ echo -e "${GREEN}└────────────────────
 echo -e "     ${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r"
 echo -e "   ${BICyan}     STUNNEL ${NC}: $resst" "${BICyan} DROPBEAR ${NC}: $resdbr" "${BICyan} SSH-WS ${NC}: $ressshws"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "     ${BICyan}[${BIWhite}01${BICyan}] SSH       ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}07${BICyan}] TRIALL           ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"
-echo -e "     ${BICyan}[${BIWhite}02${BICyan}] VMESS     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}08${BICyan}] BACKUP           ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"
-echo -e "     ${BICyan}[${BIWhite}03${BICyan}] VLESS     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "    ${BICyan}[${BIWhite}09${BICyan}] ADD-HOST         ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"
-echo -e "     ${BICyan}[${BIWhite}04${BICyan}] TROJAN    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}10${BICyan}] RUNNING SERVICE  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"            
-echo -e "     ${BICyan}[${BIWhite}05${BICyan}] SETTINGS  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "    ${BICyan}[${BIWhite}11${BICyan}] SET REBOOT       ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" 
-echo -e "     ${BICyan}[${BIWhite}06${BICyan}] REGIP     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}12${BICyan}] BOT TELE         ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"
+echo -e "     ${BICyan}[${BIWhite}01${BICyan}] SSH       ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "     ${BICyan}[${BIWhite}06${BICyan}] TRIALL    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan} │"
+echo -e "     ${BICyan}[${BIWhite}02${BICyan}] VMESS     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}07${BICyan}] BACKUP    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan} │"
+echo -e "     ${BICyan}[${BIWhite}03${BICyan}] VLESS     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}08${BICyan}] ADD-HOST      ${NC}" "${BICyan}   │"
+echo -e "     ${BICyan}[${BIWhite}04${BICyan}] TROJAN    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}09${BICyan}] RUNNING SERVICE   │"
+echo -e "     ${BICyan}[${BIWhite}05${BICyan}] SETTINGS  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}10${BICyan}] SET REBOOT${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan} │${NC}"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
@@ -306,7 +306,7 @@ mai="datediff "$Exp" "$DATE""
 echo -e " $BICyan┌─────────────────────────────────────┐${NC}"
 echo -e " $BICyan│${NC}   Version        : $(cat /opt/.ver) 4.0 Lite ${NC}"
 echo -e " $BICyan│${NC}   Client         :\033[1;36m $Name \e[0m"
-echo -e " $BICyan│${NC}   Order By       : ${BICyan}WokszXD VPN${NC}"
+echo -e " $BICyan│${NC}   Order By       : ${BIRed}WokszXD VPN${NC}"
 if [ $exp \< 1000 ];
 then
 echo -e "   $BICyan│$NC License      : ${GREEN}$sisa_hari$NC Days Tersisa $NC"
@@ -323,13 +323,11 @@ case $opt in
 3) clear ; menu-vless ;;
 4) clear ; menu-trojan ;;
 5) clear ; menu-set ;;
-6) clear ; addip ;;
-7) clear ; menu-trial ;;
-8) clear ; menu-bckp ;;
-9) clear ; addhost ;;
-10) clear ; running ;;
-11) clear ; jam ;;
-12) clear ; wget ${BOT}xolpanel.sh && chmod +x xolpanel.sh && ./xolpanel.sh ;;
+6) clear ; menu-trial ;;
+7) clear ; menu-bckp ;;
+8) clear ; addhost ;;
+9) clear ; running ;;
+10) clear ; jam ;;
 6969) clear ; wget https://raw.githubusercontent.com/citralinggau/Ver3/main/update.sh && chmod +x update.sh && ./update.sh && rm -f /root/update.sh ;;
 0) clear ; menu ;;
 x) exit ;;
