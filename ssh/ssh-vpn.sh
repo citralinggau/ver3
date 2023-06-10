@@ -283,8 +283,8 @@ wget -O fix "https://raw.githubusercontent.com/citralinggau/ver3/main/menu/cf.sh
 
 # menu ssh ovpn
 wget -O menu-ssh "https://raw.githubusercontent.com/citralinggau/ver3/main/menu/menu-ssh.sh"
-wget -O usernew "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/usernew.sh"
-wget -O trial "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/trial.sh"
+wget -O usernew "https://raw.githubusercontent.com/citralinggau/ver3/main/ssh/usernew.sh"
+wget -O trial "https://raw.githubusercontent.com/citralinggau/ver3/main/ssh/trial.sh"
 wget -O renew "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/renew.sh"
 wget -O hapus "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/hapus.sh"
 wget -O cek "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/cek.sh"
