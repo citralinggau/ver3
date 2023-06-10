@@ -167,6 +167,14 @@ clear
 wget https://raw.githubusercontent.com/artanodrop/v4/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 wget https://raw.githubusercontent.com/citralinggau/ver3/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
+
+echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "$green             Install SLDNS           $NC"
+echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+sleep 2
+clear
+wget https://raw.githubusercontent.com/Andyvpn/Autoscript-by-azi/main/autoscript-ssh-slowdns-main/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
+clear
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
 
